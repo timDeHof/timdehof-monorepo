@@ -1,4 +1,4 @@
-import { Avatar, AvatarFallback, AvatarImage } from "@repo/ui/avatar";
+import { Avatar, AvatarFallback, AvatarImage } from "@repo/ui/components/ui/avatar";
 import { siteConfig } from "@/config/site";
 import { Metadata } from "next";
 

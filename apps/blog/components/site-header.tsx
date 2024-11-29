@@ -3,7 +3,7 @@ import Link from "next/link";
 import React from "react";
 import { siteConfig } from "../config/site";
 import { Icons } from "./icons";
-import { buttonVariants } from "@repo/ui/button";
+import { buttonVariants } from "@repo/ui/components/ui/button";
 import { MainNav } from "./main-nav";
 import { MobileNav } from "./mobile-nav";
 

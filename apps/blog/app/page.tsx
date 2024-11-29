@@ -1,6 +1,6 @@
 import { sortPosts } from "@/lib/utils";
 import { siteConfig } from "@/config/site";
-import { buttonVariants } from "@repo/ui/button";
+import { buttonVariants } from "@repo/ui/components/ui/button";
 import Link from "next/link";
 import { PostItem } from "@/components/post-item";
 import { cn } from "@/lib/utils";

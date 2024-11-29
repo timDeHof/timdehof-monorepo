@@ -2,7 +2,7 @@ import { posts } from "#site/content";
 import { Metadata } from "next";
 import { getPostsByTagSlug, getAllTags, sortTagsByCount } from "@/lib/utils";
 import { PostItem } from "@/components/post-item";
-import { Card, CardContent, CardHeader, CardTitle } from "@repo/ui/card";
+import { Card, CardContent, CardHeader, CardTitle } from "@repo/ui/components/ui/card";
 import { slug } from "github-slugger";
 
 import { Tag } from "@/components/tag";

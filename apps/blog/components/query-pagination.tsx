@@ -8,7 +8,7 @@ import {
 	PaginationLink,
 	PaginationNext,
 	PaginationPrevious,
-} from "@repo/ui/pagination";
+} from "@repo/ui/components/ui/pagination";
 
 interface QueryPaginationProps {
 	totalPages: number;

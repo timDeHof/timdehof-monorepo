@@ -3,7 +3,7 @@ import Link from "next/link";
 import React from "react";
 import { cn } from "../lib/utils";
 import { formatDate } from "@/lib/utils";
-import { buttonVariants } from "@repo/ui/button";
+import { buttonVariants } from "@repo/ui/components/ui/button";
 import { Tag } from "./tag";
 interface PostItemProps {
 	slug: string;

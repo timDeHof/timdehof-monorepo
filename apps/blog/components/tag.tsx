@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { slug } from "github-slugger";
-import { badgeVariants } from "@repo/ui/badge";
+import { badgeVariants } from "@repo/ui/components/ui/badge";
 
 interface TagProps {
 	tag: string;
