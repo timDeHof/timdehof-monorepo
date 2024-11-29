@@ -1,12 +1,37 @@
-.DS_Store
+# Dependencies
 node_modules
-.turbo
-*.log
-dist
-dist-ssr
-*.local
+.pnp
+.pnp.js
+
+# Local env files
 .env
-.cache
-server/dist
-public/dist
-.next
+.env*.local
+
+# Testing
+coverage
+
+# Turbo
+.turbo
+
+# Vercel
+.vercel
+
+# Build Outputs
+.next/
+out/
+build
+dist
+
+
+# Debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Misc
+.DS_Store
+*.pem
+
+# Typescript
+*.tsbuildinfo
+next-env.d.ts
