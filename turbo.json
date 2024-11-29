@@ -6,11 +6,7 @@
 			"inputs": ["$TURBO_DEFAULT$", ".env*", "src/**"],
 			"outputs": ["dist/**", ".next/**", "!.next/cache/**"]
 		},
-		"@repo/ui#build": {
-			"outputLogs": "hash-only",
-			"inputs": ["src/**"],
-			"outputs": ["dist/**"]
-		},
+
 		"lint": {},
 		"dev": {
 			"cache": false,
