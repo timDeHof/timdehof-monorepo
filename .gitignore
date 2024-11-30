@@ -24,7 +24,9 @@ dist
 **/.next
 **/build
 **/dist
-
+**/.next
+**/.next/**
+**/next-env.d.ts
 
 # Debug
 npm-debug.log*
@@ -38,3 +40,14 @@ yarn-error.log*
 # Typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# Build caches
+**/.turbo
+**/cache/
+**/webpack/
+
+# Build artifacts
+**/manifest.json
+**/app-build-manifest.json
+**/app-paths-manifest.json
+**/server-reference-manifest.json
