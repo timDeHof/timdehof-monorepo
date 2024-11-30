@@ -1,0 +1,29 @@
+{
+	"name": "database",
+	"version": "0.0.0",
+	"private": true,
+	"type": "module",
+	"main": "dist/index.js",
+	"scripts": {
+		"dev": "tsc --watch",
+		"build": "tsc",
+		"db:studio": "drizzle-kit studio",
+		"db:check": "drizzle-kit check",
+		"db:generate": "drizzle-kit generate",
+		"db:migrate": "tsx migrate.ts"
+	},
+	"devDependencies": {
+		"@types/pg": "^8.11.10",
+		"drizzle-kit": "^0.28.1",
+		"ts-node": "^10.9.2",
+		"tsx": "^4.19.2",
+		"typescript": "^5.7.2"
+	},
+	"dependencies": {
+		"dotenv": "^16.4.5",
+		"drizzle-orm": "^0.36.4",
+		"drizzle-seed": "^0.1.2",
+		"pg": "^8.13.1",
+		"postgres": "^3.4.5"
+	}
+}
