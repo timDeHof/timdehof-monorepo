@@ -1,21 +1,25 @@
 {
-  "name": "personal-website",
-  "version": "0.0.0",
-  "private": true,
-  "workspaces": [
-    "apps/*",
-    "packages/*"
-  ],
-  "scripts": {
-    "build": "turbo build",
-    "dev": "turbo dev",
-    "lint": "turbo lint",
-    "format": "prettier --write \"**/*.{ts,tsx,md}\""
-  },
-  "devDependencies": {
-    "eslint": "^8.57.0",
-    "prettier": "^3.2.5",
-    "turbo": "^2.3.3"
-  },
-  "packageManager": "pnpm@8.15.6"
+	"name": "personal-website",
+	"version": "0.0.0",
+	"private": true,
+	"workspaces": [
+		"apps/*",
+		"packages/*"
+	],
+	"scripts": {
+		"build": "turbo build",
+		"dev": "turbo dev",
+		"lint": "turbo lint",
+		"format": "prettier --write \"**/*.{ts,tsx,md}\"",
+		"db:studio": "turbo run db:studio",
+		"db:check": "turbo run db:check",
+		"db:generate": "turbo run db:generate",
+		"db:migrate": "turbo run db:migrate"
+	},
+	"devDependencies": {
+		"eslint": "^8.57.0",
+		"prettier": "^3.2.5",
+		"turbo": "^2.3.3"
+	},
+	"packageManager": "pnpm@8.15.6"
 }
